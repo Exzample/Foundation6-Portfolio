@@ -1,0 +1,33 @@
+{
+  "name": "foundation6-portfolio",
+  "version": "1.0.0",
+  "description": "New design, first time using Foundation by Zurb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Exzample/Foundation6-Portfolio.git"
+  },
+  "keywords": [
+    "Foundation",
+    "6"
+  ],
+  "author": "Douglas Henderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Exzample/Foundation6-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Exzample/Foundation6-Portfolio#readme",
+  "dependencies": {
+    "6": "0.0.1",
+    "eslint": "^5.16.0",
+    "foundation": "^4.2.1-1",
+    "jquery": "^3.4.0",
+    "orbit": "^0.1.3"
+  },
+  "devDependencies": {
+    "motion-ui": "^2.0.3"
+  }
+}
