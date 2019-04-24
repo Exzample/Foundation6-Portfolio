@@ -10,12 +10,31 @@
     <link rel="stylesheet" href="./css/icons/foundation-icons.css" />
   </head>
   <body>
-  <div class="grid-container full">
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+        <div class="off-canvas position-right reveal-for-large grid-y grid-margin-x grid-padding-x" id="my-info" data-off-canvas data-position="left">
+          <div class="grid-y cell">
+            <br>
+            <img class="thumbnail" src="./images/dhlogo final.png">
+            <h5>Douglas Henderson</h5>
+            <p>Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo.</p>
+          </div>
+        </div>
+         <div class="off-canvas-content" data-off-canvas-content>
+          <div class="title-bar hide-for-large">
+            <div class="title-bar-left">
+              <button class="menu-icon" type="button" data-open="my-info"></button>
+              <span class="title-bar-title">Douglas Henderson</span>
+            </div>
+          </div>
+        </div>
+      </div>
+          
     <!--NavBar-->
-    <div class="top-bar">
+    <header class="top-bar">
       <div class="top-bar-left">
-        <ul class="dropdown menu" data-dropdown-menu>
-          <li class="menu-img">
+        <ul class="menu" data-dropdown-menu>
+          <li class="">
             <img
             src="./images/dhlogo final.png"
             style="height: 80px;"
@@ -24,131 +43,76 @@
           <li class="text-left menu-text"><h1>Douglas Henderson</h1></li>
         </ul>
       </div>
-      <div class="top-bar-right">
-          <ul class="dropdown menu" data-dropdown-menu>
-              <li class="menu-text">Site Title</li>
-              <li class="has-submenu">
-                <a href="#0">Menu</a>
-                <ul class="submenu menu vertical" data-submenu>
-                  <li><a href="#0">About Me</a></li>
-                  <li><a href="#0">Porfolio</a></li>
-                  <li><a href="#0">Contact Me</a></li>
-                </ul>
-              </li>
-              <li><a href="#0">Two</a></li>
-              <li><a href="#0">Three</a></li>
-            </ul>
-        <ul class="menu text-left">
-          <ul class="dropdown menu verticle" data-dropdown-menu>
-            <!-- <a href="#">Porfolio</a> -->
-            <li><a href=""><i class="home"></i>About Me</a></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="#">Contact Me</a></li>
-          </div>
-    </div>
-   
-    <div class="grid-container grid-x grid-margin-x">
-        <div class="row">
-            <div class="columns">
-              <h2>Orbit - Text Slider</h2>
-              <p>An image and content carousel aka slider with an animation support through <strong><a href="//foundation.zurb.com/sites/docs/motion-ui.html">Motion UI</a></strong> and has many customizable options. Here is an example with text slider.</p>
+      <div class="top-bar-right position-left text-justified grid-x">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="menu-text">Navigation</li>
+          <li class="has-submenu">
+          <a href="# cell small-12">Porfolio</a>
+        <ul class="menu vertical">
+          <li><a href="#">Option 1</a></li>
+          <li><a href="#">Option 2</a></li>
+          <li><a href="#">Option 3</a></li>                        
+        </ul>
+        </li>             
+      </div>
+    </header>
+      <div class="grid-container grid-x grid-margin-x">
+          <div class="grid-container full grid-x grid-margin-x">
+              <div class="cell small-1">box1</div>
+              <div class="cell small-1">box2</div>
+              <div class="cell small-1">box3</div>
+              <div class="cell small-1">box4</div>
+              <div class="cell small-1">box5</div>
+              <div class="cell small-1">box6</div>
+              <div class="cell small-1">box7</div>
+              <div class="cell small-1">box8</div>
+              <div class="cell small-1">box9</div>
+              <div class="cell small-1">box10</div>
+              <div class="cell small-1">box11</div>
+              <div class="card small-1">box12</div>
+          </div>   
+        </div>
+        <div class="grid-container grid-x grid-margin-x grid-padding-x small-up-2 medium-up-3 large-up-4">
+          <div></div>
+            <div class="cell card">
+              <img class="thumbnail" src="https://placehold.it/250x250">
+              <h5><a>My Site</a></h5>
+            </div>
+            <div class="cell card">
+              <img class="thumbnail" src="https://placehold.it/250x250">
+              <h5><a>My Site</a></h5>
+            </div>
+            <div class="cell card">
+              <img class="thumbnail" src="https://placehold.it/250x250">
+              <h5><a>My Site</a></h5>
+            </div>
+            <div class="cell card ">
+              <img class="thumbnail" src="https://placehold.it/250x250">
+             <h5><a>My Site</a></h5>
+            </div>
+            <div class="cell card">
+              <img class="thumbnail" src="https://placehold.it/250x250">
+              <h5><a>My Site</a></h5>
+            </div>
+            <div class="cell card">
+              <img class="thumbnail" src="https://placehold.it/250x250">
+              <h5><a>My Site</a></h5>
+            </div>
+            <div class="cell card">
+              <img class="thumbnail" src="https://placehold.it/250x250">
+              <h5><a>My Site</a></h5>
+            </div>
+            <div class="cell card">
+              <img class="thumbnail" src="https://placehold.it/250x250">
+              <h5><a>My Site</a></h5>
             </div>
           </div>
-          
-          <div class="row">
-            <div class="columns">
-              <div class="orbit" role="region" aria-label="Favorite Text Ever" data-orbit>
-                <ul class="orbit-container">
-                  <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
-                  <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
-                  <li class="is-active orbit-slide">
-                    <div class="docs-example-orbit-slide">
-                      <p><strong>This is dodgerblue.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                  </li>
-                  <li class="orbit-slide">
-                    <div class="docs-example-orbit-slide">
-                      <p><strong>This is rebeccapurple.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                  </li>
-                  <li class="orbit-slide">
-                    <div class="docs-example-orbit-slide">
-                      <p><strong>This is darkgoldenrod.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                  </li>
-                  <li class="orbit-slide">
-                    <div class="docs-example-orbit-slide">
-                      <p><strong>This is lightseagreen.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                  </li>
-                </ul>
-                <nav class="orbit-bullets">
-                  <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
-                  <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-                  <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
-                  <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
-                </nav>
-              </div>
-            </div>
-          </div>
-          
-          <div class="row" style="margin-top: 1.5rem;">
-            <div class="columns">
-              <h2>Orbit - Image Slider</h2>
-              <p>And here is an example with Images.</p>
-            </div>
-          </div>
-          
-          <div class="row">
-            <div class="columns">
-              <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
-                <ul class="orbit-container">
-                  <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
-                  <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
-                  <li class="is-active orbit-slide">
-                    <img class="orbit-image" src="https://foundation.zurb.com/sites/docs/assets/img/orbit/01.jpg" alt="Space">
-                    <figcaption class="orbit-caption">Space, the final frontier.</figcaption>
-                  </li>
-                  <li class="orbit-slide">
-                    <img class="orbit-image" src="https://foundation.zurb.com/sites/docs/assets/img/orbit/02.jpg" alt="Space">
-                    <figcaption class="orbit-caption">Lets Rocket!</figcaption>
-                  </li>
-                  <li class="orbit-slide">
-                    <img class="orbit-image" src="https://foundation.zurb.com/sites/docs/assets/img/orbit/03.jpg" alt="Space">
-                    <figcaption class="orbit-caption">Encapsulating</figcaption>
-                  </li>
-                  <li class="orbit-slide">
-                    <img class="orbit-image" src="https://foundation.zurb.com/sites/docs/assets/img/orbit/04.jpg" alt="Space">
-                    <figcaption class="orbit-caption">Outta This World</figcaption>
-                  </li>
-                </ul>
-                <nav class="orbit-bullets">
-                 <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
-                 <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-                 <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
-                 <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
-               </nav>
-              </div>
-            </div>
-          </div>
+      </div><!--last container div-->
+      </body>
+    </html>
+           
  
-    <div class="grid-container grid-x grid-margin-x">
-        <div class="grid-container full grid-x grid-margin-x">
-            <div class="cell small-1">box1</div>
-            <div class="cell small-1">box2</div>
-            <div class="cell small-1">box3</div>
-            <div class="cell small-1">box4</div>
-            <div class="cell small-1">box5</div>
-            <div class="cell small-1">box6</div>
-            <div class="cell small-1">box7</div>
-            <div class="cell small-1">box8</div>
-            <div class="cell small-1">box9</div>
-            <div class="cell small-1">box10</div>
-            <div class="cell small-1">box11</div>
-            <div class="card small-1">box12</div>
-        </div>   
-         
-    </div>
-  </div><!--last container div-->
-  </body>
-</html>
+      
+   
+
+ 
